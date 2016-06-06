@@ -1,9 +1,8 @@
-
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title>GeoMapIDa3c55333294</title>
+<title>GeoMapID1a5819be351b</title>
 <meta http-equiv="content-type" content="text/html;charset=utf-8" />
 <style type="text/css">
 body {
@@ -18,684 +17,849 @@ body {
 </style>
 </head>
 <body>
- <!-- GeoMap generated in R 3.3.0 by googleVis 0.5.10 package -->
-<!-- Sun Jun 05 01:49:26 2016 -->
+ <!-- GeoMap generated in R 3.2.5 by googleVis 0.5.10 package -->
+<!-- Tue Jun 07 06:21:43 2016 -->
 
 
 <!-- jsHeader -->
 <script type="text/javascript">
  
 // jsData 
-function gvisDataGeoMapIDa3c55333294 () {
+function gvisDataGeoMapID1a5819be351b () {
 var data = new google.visualization.DataTable();
 var datajson =
 [
  [
  "Afghanistan",
-60.02826829 
+60.02826829,
+"South Asia" 
 ],
 [
  "Angola",
-51.86617073 
+51.86617073,
+"Sub-Saharan Africa" 
 ],
 [
  "Albania",
-77.64046341 
+77.64046341,
+"Europe & Central Asia" 
 ],
 [
  "United Arab Emirates",
-77.19563415 
+77.19563415,
+"Middle East & North Africa" 
 ],
 [
  "Argentina",
-75.98609756 
+75.98609756,
+"Latin America & Caribbean" 
 ],
 [
  "Armenia",
-74.56136585 
+74.56136585,
+"Europe & Central Asia" 
 ],
 [
  "Australia",
-82.14878049 
+82.14878049,
+"East Asia & Pacific" 
 ],
 [
  "Austria",
-81.13658537 
+81.13658537,
+"Europe & Central Asia" 
 ],
 [
  "Azerbaijan",
-70.69058537 
+70.69058537,
+"Europe & Central Asia" 
 ],
 [
  "Burundi",
-56.25160976 
+56.25160976,
+"Sub-Saharan Africa" 
 ],
 [
  "Belgium",
-80.58780488 
+80.58780488,
+"Europe & Central Asia" 
 ],
 [
  "Benin",
-59.31202439 
+59.31202439,
+"Sub-Saharan Africa" 
 ],
 [
  "Burkina Faso",
-58.24063415 
+58.24063415,
+"Sub-Saharan Africa" 
 ],
 [
  "Bangladesh",
-71.2452439 
+71.2452439,
+"South Asia" 
 ],
 [
  "Bulgaria",
-74.86097561 
+74.86097561,
+"Europe & Central Asia" 
 ],
 [
  "Bahrain",
-76.54595122 
+76.54595122,
+"Middle East & North Africa" 
 ],
 [
  "Bahamas, The",
-75.07353659 
+75.07353659,
+"Latin America & Caribbean" 
 ],
 [
  "Belarus",
-72.47073171 
+72.47073171,
+"Europe & Central Asia" 
 ],
 [
  "Belize",
-69.98204878 
+69.98204878,
+"Latin America & Caribbean" 
 ],
 [
  "Bolivia",
-67.91343902 
+67.91343902,
+"Latin America & Caribbean" 
 ],
 [
  "Brazil",
-74.12243902 
+74.12243902,
+"Latin America & Caribbean" 
 ],
 [
  "Bhutan",
-69.10292683 
+69.10292683,
+"South Asia" 
 ],
 [
  "Botswana",
-64.36080488 
+64.36080488,
+"Sub-Saharan Africa" 
 ],
 [
  "Central African Republic",
-49.87987805 
+49.87987805,
+"Sub-Saharan Africa" 
 ],
 [
  "Canada",
-81.76504878 
+81.76504878,
+"North America" 
 ],
 [
  "Switzerland",
-82.79756098 
+82.79756098,
+"Europe & Central Asia" 
 ],
 [
  "Chile",
-81.19792683 
+81.19792683,
+"Latin America & Caribbean" 
 ],
 [
  "China",
-75.58514634 
+75.58514634,
+"East Asia & Pacific" 
 ],
 [
  "Cote d'Ivoire",
-51.20846341 
+51.20846341,
+"Sub-Saharan Africa" 
 ],
 [
  "Cameroon",
-55.04180488 
+55.04180488,
+"Sub-Saharan Africa" 
 ],
 [
  "Congo, Rep.",
-61.66639024 
+61.66639024,
+"Sub-Saharan Africa" 
 ],
 [
  "Colombia",
-73.80973171 
+73.80973171,
+"Latin America & Caribbean" 
 ],
 [
  "Comoros",
-62.93217073 
+62.93217073,
+"Sub-Saharan Africa" 
 ],
 [
  "Cabo Verde",
-72.97236585 
+72.97236585,
+"Sub-Saharan Africa" 
 ],
 [
  "Costa Rica",
-79.22521951 
+79.22521951,
+"Latin America & Caribbean" 
 ],
 [
  "Cyprus",
-79.94978049 
+79.94978049,
+"Europe & Central Asia" 
 ],
 [
  "Czech Republic",
-78.17560976 
+78.17560976,
+"Europe & Central Asia" 
 ],
 [
  "Germany",
-80.84390244 
+80.84390244,
+"Europe & Central Asia" 
 ],
 [
  "Denmark",
-80.3 
+80.3,
+"Europe & Central Asia" 
 ],
 [
  "Dominican Republic",
-73.31990244 
+73.31990244,
+"Latin America & Caribbean" 
 ],
 [
  "Algeria",
-74.56895122 
+74.56895122,
+"Middle East & North Africa" 
 ],
 [
  "Ecuador",
-75.6485122 
+75.6485122,
+"Latin America & Caribbean" 
 ],
 [
  "Egypt, Arab Rep.",
-70.92578049 
+70.92578049,
+"Middle East & North Africa" 
 ],
 [
  "Spain",
-83.07804878 
+83.07804878,
+"Europe & Central Asia" 
 ],
 [
  "Estonia",
-77.14146341 
+77.14146341,
+"Europe & Central Asia" 
 ],
 [
  "Ethiopia",
-63.44219512 
+63.44219512,
+"Sub-Saharan Africa" 
 ],
 [
  "Finland",
-80.97560976 
+80.97560976,
+"Europe & Central Asia" 
 ],
 [
  "Fiji",
-69.91792683 
+69.91792683,
+"East Asia & Pacific" 
 ],
 [
  "France",
-82.2195122 
+82.2195122,
+"Europe & Central Asia" 
 ],
 [
  "Gabon",
-63.84358537 
+63.84358537,
+"Sub-Saharan Africa" 
 ],
 [
  "United Kingdom",
-81.00487805 
+81.00487805,
+"Europe & Central Asia" 
 ],
 [
  "Georgia",
-74.51390244 
+74.51390244,
+"Europe & Central Asia" 
 ],
 [
  "Ghana",
-61.14207317 
+61.14207317,
+"Sub-Saharan Africa" 
 ],
 [
  "Guinea",
-58.2164878 
+58.2164878,
+"Sub-Saharan Africa" 
 ],
 [
  "Gambia, The",
-59.99926829 
+59.99926829,
+"Sub-Saharan Africa" 
 ],
 [
  "Guinea-Bissau",
-54.83841463 
+54.83841463,
+"Sub-Saharan Africa" 
 ],
 [
  "Equatorial Guinea",
-57.29082927 
+57.29082927,
+"Sub-Saharan Africa" 
 ],
 [
  "Greece",
-81.28536585 
+81.28536585,
+"Europe & Central Asia" 
 ],
 [
  "Guatemala",
-71.48639024 
+71.48639024,
+"Latin America & Caribbean" 
 ],
 [
  "Guyana",
-66.31002439 
+66.31002439,
+"Latin America & Caribbean" 
 ],
 [
  "Honduras",
-72.94285366 
+72.94285366,
+"Latin America & Caribbean" 
 ],
 [
  "Croatia",
-77.12682927 
+77.12682927,
+"Europe & Central Asia" 
 ],
 [
  "Haiti",
-62.40114634 
+62.40114634,
+"Latin America & Caribbean" 
 ],
 [
  "Hungary",
-75.56585366 
+75.56585366,
+"Europe & Central Asia" 
 ],
 [
  "Indonesia",
-68.70460976 
+68.70460976,
+"East Asia & Pacific" 
 ],
 [
  "India",
-67.66041463 
+67.66041463,
+"South Asia" 
 ],
 [
  "Ireland",
-81 
+81,
+"Europe & Central Asia" 
 ],
 [
  "Iran, Islamic Rep.",
-75.12597561 
+75.12597561,
+"Middle East & North Africa" 
 ],
 [
  "Iraq",
-69.1834878 
+69.1834878,
+"Middle East & North Africa" 
 ],
 [
  "Iceland",
-82.06097561 
+82.06097561,
+"Europe & Central Asia" 
 ],
 [
  "Israel",
-82.05609756 
+82.05609756,
+"Middle East & North Africa" 
 ],
 [
  "Italy",
-82.6902439 
+82.6902439,
+"Europe & Central Asia" 
 ],
 [
  "Jamaica",
-75.4882439 
+75.4882439,
+"Latin America & Caribbean" 
 ],
 [
  "Jordan",
-73.9 
+73.9,
+"Middle East & North Africa" 
 ],
 [
  "Japan",
-83.33195122 
+83.33195122,
+"East Asia & Pacific" 
 ],
 [
  "Kazakhstan",
-70.45 
+70.45,
+"Europe & Central Asia" 
 ],
 [
  "Kenya",
-60.95378049 
+60.95378049,
+"Sub-Saharan Africa" 
 ],
 [
  "Kyrgyz Republic",
-70.20243902 
+70.20243902,
+"Europe & Central Asia" 
 ],
 [
  "Cambodia",
-67.77204878 
+67.77204878,
+"East Asia & Pacific" 
 ],
 [
  "Kiribati",
-65.76658537 
+65.76658537,
+"East Asia & Pacific" 
 ],
 [
  "Korea, Rep.",
-81.70512195 
+81.70512195,
+"East Asia & Pacific" 
 ],
 [
  "Kuwait",
-74.46968293 
+74.46968293,
+"Middle East & North Africa" 
 ],
 [
  "Lao PDR",
-65.6872439 
+65.6872439,
+"East Asia & Pacific" 
 ],
 [
  "Lebanon",
-79.13370732 
+79.13370732,
+"Middle East & North Africa" 
 ],
 [
  "Liberia",
-60.52039024 
+60.52039024,
+"Sub-Saharan Africa" 
 ],
 [
  "Libya",
-71.65768293 
+71.65768293,
+"Middle East & North Africa" 
 ],
 [
  "St. Lucia",
-74.91270732 
+74.91270732,
+"Latin America & Caribbean" 
 ],
 [
  "Sri Lanka",
-74.65382927 
+74.65382927,
+"South Asia" 
 ],
 [
  "Lesotho",
-49.33146341 
+49.33146341,
+"Sub-Saharan Africa" 
 ],
 [
  "Lithuania",
-73.91463415 
+73.91463415,
+"Europe & Central Asia" 
 ],
 [
  "Luxembourg",
-81.8 
+81.8,
+"Europe & Central Asia" 
 ],
 [
  "Latvia",
-73.98292683 
+73.98292683,
+"Europe & Central Asia" 
 ],
 [
  "Morocco",
-73.70904878 
+73.70904878,
+"Middle East & North Africa" 
 ],
 [
  "Moldova",
-71.17204878 
+71.17204878,
+"Europe & Central Asia" 
 ],
 [
  "Madagascar",
-64.67390244 
+64.67390244,
+"Sub-Saharan Africa" 
 ],
 [
  "Maldives",
-76.60260976 
+76.60260976,
+"South Asia" 
 ],
 [
  "Mexico",
-76.53265854 
+76.53265854,
+"Latin America & Caribbean" 
 ],
 [
  "Macedonia, FYR",
-75.18704878 
+75.18704878,
+"Europe & Central Asia" 
 ],
 [
  "Mali",
-57.53519512 
+57.53519512,
+"Sub-Saharan Africa" 
 ],
 [
  "Myanmar",
-65.65409756 
+65.65409756,
+"East Asia & Pacific" 
 ],
 [
  "Mongolia",
-69.06180488 
+69.06180488,
+"East Asia & Pacific" 
 ],
 [
  "Mozambique",
-54.6415122 
+54.6415122,
+"Sub-Saharan Africa" 
 ],
 [
  "Mauritania",
-62.80270732 
+62.80270732,
+"Sub-Saharan Africa" 
 ],
 [
  "Mauritius",
-74.01707317 
+74.01707317,
+"Sub-Saharan Africa" 
 ],
 [
  "Malawi",
-61.466 
+61.466,
+"Sub-Saharan Africa" 
 ],
 [
  "Malaysia",
-74.5675122 
+74.5675122,
+"East Asia & Pacific" 
 ],
 [
  "Namibia",
-64.34387805 
+64.34387805,
+"Sub-Saharan Africa" 
 ],
 [
  "Niger",
-60.82814634 
+60.82814634,
+"Sub-Saharan Africa" 
 ],
 [
  "Nigeria",
-52.44214634 
+52.44214634,
+"Sub-Saharan Africa" 
 ],
 [
  "Nicaragua",
-74.5147561 
+74.5147561,
+"Latin America & Caribbean" 
 ],
 [
  "Netherlands",
-81.30487805 
+81.30487805,
+"Europe & Central Asia" 
 ],
 [
  "Norway",
-81.75121951 
+81.75121951,
+"Europe & Central Asia" 
 ],
 [
  "Nepal",
-69.222 
+69.222,
+"South Asia" 
 ],
 [
  "New Zealand",
-81.40731707 
+81.40731707,
+"East Asia & Pacific" 
 ],
 [
  "Oman",
-76.84104878 
+76.84104878,
+"Middle East & North Africa" 
 ],
 [
  "Pakistan",
-65.96368293 
+65.96368293,
+"South Asia" 
 ],
 [
  "Panama",
-77.41921951 
+77.41921951,
+"Latin America & Caribbean" 
 ],
 [
  "Peru",
-74.28385366 
+74.28385366,
+"Latin America & Caribbean" 
 ],
 [
  "Philippines",
-68.13156098 
+68.13156098,
+"East Asia & Pacific" 
 ],
 [
  "Papua New Guinea",
-62.44917073 
+62.44917073,
+"East Asia & Pacific" 
 ],
 [
  "Poland",
-77 
+77,
+"Europe & Central Asia" 
 ],
 [
  "Portugal",
-80.72195122 
+80.72195122,
+"Europe & Central Asia" 
 ],
 [
  "Paraguay",
-72.79917073 
+72.79917073,
+"Latin America & Caribbean" 
 ],
 [
  "Qatar",
-78.4184878 
+78.4184878,
+"Middle East & North Africa" 
 ],
 [
  "Romania",
-75.06341463 
+75.06341463,
+"Europe & Central Asia" 
 ],
 [
  "Russian Federation",
-70.36585366 
+70.36585366,
+"Europe & Central Asia" 
 ],
 [
  "Rwanda",
-63.39482927 
+63.39482927,
+"Sub-Saharan Africa" 
 ],
 [
  "Saudi Arabia",
-74.17763415 
+74.17763415,
+"Middle East & North Africa" 
 ],
 [
  "Sudan",
-63.16704878 
+63.16704878,
+"Sub-Saharan Africa" 
 ],
 [
  "Senegal",
-65.8787561 
+65.8787561,
+"Sub-Saharan Africa" 
 ],
 [
  "Singapore",
-82.24634146 
+82.24634146,
+"East Asia & Pacific" 
 ],
 [
  "Solomon Islands",
-67.71892683 
+67.71892683,
+"East Asia & Pacific" 
 ],
 [
  "Sierra Leone",
-50.36312195 
+50.36312195,
+"Sub-Saharan Africa" 
 ],
 [
  "El Salvador",
-72.49814634 
+72.49814634,
+"Latin America & Caribbean" 
 ],
 [
  "Sao Tome and Principe",
-66.2595122 
+66.2595122,
+"Sub-Saharan Africa" 
 ],
 [
  "Suriname",
-70.99 
+70.99,
+"Latin America & Caribbean" 
 ],
 [
  "Slovak Republic",
-76.41219512 
+76.41219512,
+"Europe & Central Asia" 
 ],
 [
  "Slovenia",
-80.32195122 
+80.32195122,
+"Europe & Central Asia" 
 ],
 [
  "Sweden",
-81.95609756 
+81.95609756,
+"Europe & Central Asia" 
 ],
 [
  "Swaziland",
-48.93792683 
+48.93792683,
+"Sub-Saharan Africa" 
 ],
 [
  "Seychelles",
-73.1195122 
+73.1195122,
+"Sub-Saharan Africa" 
 ],
 [
  "Chad",
-51.1914878 
+51.1914878,
+"Sub-Saharan Africa" 
 ],
 [
  "Togo",
-59.13236585 
+59.13236585,
+"Sub-Saharan Africa" 
 ],
 [
  "Thailand",
-74.24692683 
+74.24692683,
+"East Asia & Pacific" 
 ],
 [
  "Tajikistan",
-69.40017073 
+69.40017073,
+"Europe & Central Asia" 
 ],
 [
  "Tonga",
-72.64034146 
+72.64034146,
+"East Asia & Pacific" 
 ],
 [
  "Trinidad and Tobago",
-70.30529268 
+70.30529268,
+"Latin America & Caribbean" 
 ],
 [
  "Tunisia",
-74.04390244 
+74.04390244,
+"Middle East & North Africa" 
 ],
 [
  "Turkey",
-74.90070732 
+74.90070732,
+"Europe & Central Asia" 
 ],
 [
  "Tanzania",
-64.29182927 
+64.29182927,
+"Sub-Saharan Africa" 
 ],
 [
  "Uganda",
-57.76768293 
+57.76768293,
+"Sub-Saharan Africa" 
 ],
 [
  "Ukraine",
-71.1595122 
+71.1595122,
+"Europe & Central Asia" 
 ],
 [
  "Uruguay",
-76.83619512 
+76.83619512,
+"Latin America & Caribbean" 
 ],
 [
  "United States",
-78.84146341 
+78.84146341,
+"North America" 
 ],
 [
  "Uzbekistan",
-68.222 
+68.222,
+"Europe & Central Asia" 
 ],
 [
  "St. Vincent and the Grenadines",
-72.81087805 
+72.81087805,
+"Latin America & Caribbean" 
 ],
 [
  "Vietnam",
-75.477 
+75.477,
+"East Asia & Pacific" 
 ],
 [
  "Vanuatu",
-71.6692439 
+71.6692439,
+"East Asia & Pacific" 
 ],
 [
  "Samoa",
-73.25039024 
+73.25039024,
+"East Asia & Pacific" 
 ],
 [
  "Yemen, Rep.",
-63.5835122 
+63.5835122,
+"Middle East & North Africa" 
 ],
 [
  "South Africa",
-56.73658537 
+56.73658537,
+"Sub-Saharan Africa" 
 ],
 [
  "Congo, Dem. Rep.",
-58.27192683 
+58.27192683,
+"Sub-Saharan Africa" 
 ],
 [
  "Zambia",
-59.23736585 
+59.23736585,
+"Sub-Saharan Africa" 
 ],
 [
  "Zimbabwe",
-55.633 
+55.633,
+"Sub-Saharan Africa" 
 ] 
 ];
 data.addColumn('string','Country.Name');
 data.addColumn('number','lifeExp');
+data.addColumn('string','Region');
 data.addRows(datajson);
 return(data);
 }
  
 // jsDrawChart
-function drawChartGeoMapIDa3c55333294() {
-var data = gvisDataGeoMapIDa3c55333294();
+function drawChartGeoMapID1a5819be351b() {
+var data = gvisDataGeoMapID1a5819be351b();
 var options = {};
 options["dataMode"] = "regions";
 options["width"] =    556;
@@ -703,7 +867,7 @@ options["height"] =    347;
 
 
     var chart = new google.visualization.GeoMap(
-    document.getElementById('GeoMapIDa3c55333294')
+    document.getElementById('GeoMapID1a5819be351b')
     );
     chart.draw(data,options);
     
@@ -727,9 +891,9 @@ if (newPackage)
   pkgs.push(chartid);
   
 // Add the drawChart function to the global list of callbacks
-callbacks.push(drawChartGeoMapIDa3c55333294);
+callbacks.push(drawChartGeoMapID1a5819be351b);
 })();
-function displayChartGeoMapIDa3c55333294() {
+function displayChartGeoMapID1a5819be351b() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -753,18 +917,23 @@ callbacks.shift()();
 </script>
  
 <!-- jsChart -->  
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartGeoMapIDa3c55333294"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartGeoMapID1a5819be351b"></script>
  
 <!-- divChart -->
   
-<div id="GeoMapIDa3c55333294" 
+<div id="GeoMapID1a5819be351b" 
   style="width: 556; height: 347;">
 </div>
- <div><span>Data: g1 &#8226; Chart ID: <a href="Chart_GeoMapIDa3c55333294.html">GeoMapIDa3c55333294</a> &#8226; <a href="https://github.com/mages/googleVis">googleVis-0.5.10</a></span><br /> 
+ <div><span>Data: g1 &#8226; Chart ID: <a href="Chart_GeoMapID1a5819be351b.html">GeoMapID1a5819be351b</a> &#8226; <a href="https://github.com/mages/googleVis">googleVis-0.5.10</a></span><br /> 
 <!-- htmlFooter -->
 <span> 
-  R version 3.3.0 (2016-05-03) 
+  R version 3.2.5 (2016-04-14) 
   &#8226; <a href="https://developers.google.com/terms/">Google Terms of Use</a> &#8226; <a href="https://google-developers.appspot.com/chart/interactive/docs/gallery/geomap">Documentation and Data Policy</a>
 </span></div>
+<div>
+<p>세계의 기대수명을 나타내는 지도다.</p>
+<p>북아메리카, 유럽, 일본, 오세아니아 지역의 진한 초록색으로 기대수명이 높게 나타난다.</p>
+<p>아프리카는 연한 초록색으로 기대수명이 적게 나타난다.</p>
+</div>
 </body>
 </html>
