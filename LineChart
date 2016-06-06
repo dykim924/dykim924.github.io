@@ -3,8 +3,8 @@
   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title>LineChartIDa3c8ab1b1</title>
-<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<title>LineChartID156854825cfc</title>
+<meta http-equiv="content-type" content="text/html;charset=euc-kr" />
 <style type="text/css">
 body {
   color: #444444;
@@ -19,14 +19,14 @@ body {
 </head>
 <body>
  <!-- LineChart generated in R 3.3.0 by googleVis 0.5.10 package -->
-<!-- Sun Jun 05 02:49:42 2016 -->
+<!-- Mon Jun 06 14:45:17 2016 -->
 
 
 <!-- jsHeader -->
 <script type="text/javascript">
  
 // jsData 
-function gvisDataLineChartIDa3c8ab1b1 () {
+function gvisDataLineChartID156854825cfc () {
 var data = new google.visualization.DataTable();
 var datajson =
 [
@@ -50,31 +50,35 @@ return(data);
 }
  
 // jsDrawChart
-function drawChartLineChartIDa3c8ab1b1() {
-var data = gvisDataLineChartIDa3c8ab1b1();
+function drawChartLineChartID156854825cfc() {
+var data = gvisDataLineChartID156854825cfc();
 var options = {};
 options["allowHtml"] = true;
+options["hAxis"] = {title:"국가"};
+options["vAxis"] = {title:"인구"};
+options["height"] =    500;
+options["width"] =    800;
 
 
-    chartLineChartIDa3c8ab1b1 = new google.visualization.ChartWrapper({
+    chartLineChartID156854825cfc = new google.visualization.ChartWrapper({
     dataTable: data,       
     chartType: 'LineChart',
-    containerId: 'LineChartIDa3c8ab1b1',
+    containerId: 'LineChartID156854825cfc',
     options: options
     });
-    chartLineChartIDa3c8ab1b1.draw();
+    chartLineChartID156854825cfc.draw();
     
 
 }
 
-  function openEditorLineChartIDa3c8ab1b1() {
+  function openEditorLineChartID156854825cfc() {
   var editor = new google.visualization.ChartEditor();
   google.visualization.events.addListener(editor, 'ok',
   function() { 
-  chartLineChartIDa3c8ab1b1 = editor.getChartWrapper();  
-  chartLineChartIDa3c8ab1b1.draw(document.getElementById('LineChartIDa3c8ab1b1')); 
+  chartLineChartID156854825cfc = editor.getChartWrapper();  
+  chartLineChartID156854825cfc.draw(document.getElementById('LineChartID156854825cfc')); 
   }); 
-  editor.openDialog(chartLineChartIDa3c8ab1b1);
+  editor.openDialog(chartLineChartID156854825cfc);
   }
     
  
@@ -94,9 +98,9 @@ if (newPackage)
   pkgs.push(chartid);
   
 // Add the drawChart function to the global list of callbacks
-callbacks.push(drawChartLineChartIDa3c8ab1b1);
+callbacks.push(drawChartLineChartID156854825cfc);
 })();
-function displayChartLineChartIDa3c8ab1b1() {
+function displayChartLineChartID156854825cfc() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -120,18 +124,23 @@ callbacks.shift()();
 </script>
  
 <!-- jsChart -->  
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartLineChartIDa3c8ab1b1"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartLineChartID156854825cfc"></script>
  
 <!-- divChart -->
-<input type='button' onclick='openEditorLineChartIDa3c8ab1b1()' value='Population of Country'/>  
-<div id="LineChartIDa3c8ab1b1" 
-  style="width: 500; height: automatic;">
+<input type='button' onclick='openEditorLineChartID156854825cfc()' value='국가별 인구수'/>  
+<div id="LineChartID156854825cfc" 
+  style="width: 800; height: 500;">
 </div>
- <div><span>Data: data &#8226; Chart ID: <a href="Chart_LineChartIDa3c8ab1b1.html">LineChartIDa3c8ab1b1</a> &#8226; <a href="https://github.com/mages/googleVis">googleVis-0.5.10</a></span><br /> 
+ <div><span>Data: data &#8226; Chart ID: <a href="Chart_LineChartID156854825cfc.html">LineChartID156854825cfc</a> &#8226; <a href="https://github.com/mages/googleVis">googleVis-0.5.10</a></span><br /> 
 <!-- htmlFooter -->
 <span> 
   R version 3.3.0 (2016-05-03) 
   &#8226; <a href="https://developers.google.com/terms/">Google Terms of Use</a> &#8226; <a href="https://google-developers.appspot.com/chart/interactive/docs/gallery/linechart">Documentation and Data Policy</a>
 </span></div>
+<p></p>
+<div><p>볼리비아, 쿠바, 독일의 1993년도 인구수이다.</p>
+<p>선진국인 독일이 인구수가 많은 것으로 보인다.</p>
+<p>볼리비아: 7,273,824 쿠바: 10,797,556 독일: 81,156,363</p>
+</div>
 </body>
 </html>
