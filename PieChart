@@ -136,8 +136,10 @@ callbacks.shift()();
   &#8226; <a href="https://developers.google.com/terms/">Google Terms of Use</a> &#8226; <a href="https://google-developers.appspot.com/chart/interactive/docs/gallery/piechart">Documentation and Data Policy</a>
 </span></div>
 <p></p>
-<div><p>아르헨티나, 오스트레일리아, 오스트리아, 브라질, 부탄의 기대수명을 표현한 파이차트이다.</p>
+<div>
+<p>아르헨티나, 오스트레일리아, 오스트리아, 브라질, 부탄의 기대수명을 표현한 파이차트이다.</p>
 <p>오스트레일리아의 기대수명이 82.149살로 21.5%이고 가장 높으므로 조각을 빼내었다.</p>
-<p>부탄의 기대수명이 69.103살로 18.1%이고 가장 낮으므로 조각을 빼내었다.</p></div>
+<p>부탄의 기대수명이 69.103살로 18.1%이고 가장 낮으므로 조각을 빼내었다.</p>
+</div>
 </body>
 </html>
